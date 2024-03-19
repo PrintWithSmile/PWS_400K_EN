@@ -44,12 +44,12 @@ echo "Creating backup"
 
 cd /home/pi/printer_data/config
 
-#zip -r "zaloha_$(date +"%d-%m-%Y").zip" /home/pi/printer_data/config/* -x "/home/pi/printer_data/config/Archive/*" -x "/home/pi/printer_data/config/Archive"
+zip -r "zaloha_$(date +"%d-%m-%Y").zip" /home/pi/printer_data/config/* -x "/home/pi/printer_data/config/Archive/*" -x "/home/pi/printer_data/config/Archive"
 
-#mv "zaloha_$(date +"%d-%m-%Y").zip" /home/pi/printer_data/config/Archive
+mv "zaloha_$(date +"%d-%m-%Y").zip" /home/pi/printer_data/config/Archive
 
-#cp -f /home/pi/PWS/PWS_400K_EN/Configurations/* /home/pi/printer_data/config/PWS_config/
+cp -f /home/pi/PWS/PWS_400K_EN/Configurations/* /home/pi/printer_data/config/PWS_config/
 
-#service klipper restart
+service klipper restart
 
 echo "Successfully updated"
