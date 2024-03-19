@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 moonraker_file="~/printer_data/config/moonraker.conf"
 
